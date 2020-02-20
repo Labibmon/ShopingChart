@@ -276,6 +276,25 @@ const HeadTag = () => {
       lineNumber: 13
     },
     __self: undefined
+  }), __jsx("link", {
+    rel: "stylesheet",
+    type: "text/css",
+    charset: "UTF-8",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }), __jsx("link", {
+    rel: "stylesheet",
+    type: "text/css",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
   }));
 };
 
@@ -445,6 +464,199 @@ const NavbarComp = () => {
 
 /***/ }),
 
+/***/ "./pages/component/SlickComp.js":
+/*!**************************************!*\
+  !*** ./pages/component/SlickComp.js ***!
+  \**************************************/
+/*! exports provided: SlickComp */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SlickComp", function() { return SlickComp; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-slick */ "react-slick");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "D:\\Sirclo Officially\\develop\\ShopingChart\\pages\\component\\SlickComp.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+
+const SlickComp = () => {
+  const product = [{
+    name: 'Meja Belajar Minimalis',
+    harga_lama: '300,000',
+    harga_baru: '200,000',
+    rating: '4',
+    pict: 'https://s1.bukalapak.com/img/6079371563/s-194-194/Meja_Lipat_Set_Kursi___Meja_Belajar_Minimalis___Meja_Makan__.jpg'
+  }, {
+    name: 'Speaker Aktif Portable',
+    harga_lama: '610,000',
+    harga_baru: '400,000',
+    rating: '5',
+    pict: 'https://s1.bukalapak.com/img/16920882461/s-194-194/data.jpeg'
+  }, {
+    name: 'Lampu senter',
+    harga_lama: '957,000',
+    harga_baru: '800,000',
+    rating: '3',
+    pict: 'https://s1.bukalapak.com/img/68358989801/s-194-194/20190323_135938_Recovered.jpg'
+  }, {
+    name: 'Pompa Galon Elektrik',
+    harga_lama: '300,000',
+    harga_baru: '150,000',
+    rating: '4',
+    pict: 'https://s0.bukalapak.com/img/57778233051/s-194-194/Pompa_Galon_Elektrik_Touch_Screen_Child_Lock_Water_Dispenser.jpg'
+  }, {
+    name: 'Meja Komputer',
+    harga_lama: '600,000',
+    harga_baru: '400,000',
+    rating: '4',
+    pict: 'https://s0.bukalapak.com/img/51482781331/s-194-194/data.png.webp'
+  }, {
+    name: 'Senter LED',
+    harga_lama: '300,000',
+    harga_baru: '200,000',
+    rating: '4',
+    pict: 'https://s1.bukalapak.com/img/68358989801/s-194-194/20190323_135938_Recovered.jpg'
+  }];
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 4,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    responsive: [{
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 4,
+        infinite: true,
+        dots: true
+      }
+    }, {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2
+      }
+    }, {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }]
+  };
+  return __jsx("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: undefined
+  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_1___default.a, _extends({}, settings, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: undefined
+  }), product.map((row, index) => {
+    return __jsx("div", {
+      key: index,
+      className: "px-3",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84
+      },
+      __self: undefined
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Popup"], {
+      trigger: __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+        className: "p-0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        },
+        __self: undefined
+      }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+        src: row.pict,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88
+        },
+        __self: undefined
+      }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"].Content, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        },
+        __self: undefined
+      }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"].Header, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90
+        },
+        __self: undefined
+      }, row.name), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"].Description, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: undefined
+      }, __jsx("del", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: undefined
+      }, "Rp.", row.harga_lama), __jsx("strong", {
+        className: "text-danger",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: undefined
+      }, " Rp.", row.harga_baru)))),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 85
+      },
+      __self: undefined
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Popup"].Header, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99
+      },
+      __self: undefined
+    }, "Rating"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Popup"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 100
+      },
+      __self: undefined
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Rating"], {
+      icon: "star",
+      defaultRating: row.rating,
+      maxRating: 4,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 101
+      },
+      __self: undefined
+    }))));
+  })));
+};
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -465,6 +677,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _component_NavbarComp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./component/NavbarComp */ "./pages/component/NavbarComp.js");
 /* harmony import */ var _component_CarouselComp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./component/CarouselComp */ "./pages/component/CarouselComp.js");
+/* harmony import */ var _component_SlickComp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./component/SlickComp */ "./pages/component/SlickComp.js");
 var _jsxFileName = "D:\\Sirclo Officially\\develop\\ShopingChart\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -475,11 +688,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    const {
-      router
-    } = this.props;
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_component_HeadTag__WEBPACK_IMPORTED_MODULE_3__["HeadTag"], {
       __source: {
         fileName: _jsxFileName,
@@ -492,24 +703,31 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 14
       },
       __self: this
-    }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["Container"], {
-      className: "w-100 py-3",
+    }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["Segment"], {
+      className: "border-0 rounded-0 p-0 shadow-none",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 15
       },
       __self: this
-    }, __jsx(_component_CarouselComp__WEBPACK_IMPORTED_MODULE_6__["CarouselComp"], {
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["Container"], {
+      className: "w-100 py-3",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16
+      },
+      __self: this
+    }, __jsx(_component_CarouselComp__WEBPACK_IMPORTED_MODULE_6__["CarouselComp"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
       },
       __self: this
     }), __jsx("div", {
       className: "card-promo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 18
       },
       __self: this
     }, __jsx("img", {
@@ -518,20 +736,44 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       alt: "banner-promo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 19
       },
       __self: this
-    })), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["Card"], {
-      href: "#card-example-link-card",
-      header: "Elliot Baker",
-      meta: "Friend",
-      description: "Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.",
+    })))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["Segment"], {
+      className: "border-0 px-0 py-3 rounded-0 shadow-none bg-danger",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 23
       },
       __self: this
-    })));
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["Container"], {
+      fluid: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, __jsx("h3", {
+      className: "text-white",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, "FLASH SALE"), __jsx("div", {
+      className: "pb-3 px-3",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, __jsx(_component_SlickComp__WEBPACK_IMPORTED_MODULE_7__["SlickComp"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    })))));
   }
 
 }
@@ -593,6 +835,17 @@ module.exports = require("next/router");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-slick":
+/*!******************************!*\
+  !*** external "react-slick" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-slick");
 
 /***/ }),
 
