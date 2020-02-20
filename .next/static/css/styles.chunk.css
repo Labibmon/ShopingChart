@@ -1,0 +1,18 @@
+body {
+  width: 100%;
+  height: auto; }
+
+.caraousel-home {
+  max-width: 100% !important;
+  height: 500px !important;
+  background: black !important; }
+
+.card-promo {
+  max-width: 100%;
+  height: 200px; }
+  .card-promo > img {
+    width: 100%;
+    height: 100%; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
