@@ -1,0 +1,9 @@
+.carousel{
+    &--home{
+        &>.carousel-inner{
+            max-width: 100% !important;
+            height: 500px !important;
+            background: black !important;
+        }
+    }   
+}
