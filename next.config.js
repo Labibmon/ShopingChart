@@ -9,7 +9,7 @@ module.exports = withTypescript(withSass({
                 loader: 'url-loader'
             }
         });
- 
         return config;
+ 
     }
   }))

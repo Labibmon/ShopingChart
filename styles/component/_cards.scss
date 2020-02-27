@@ -1,18 +1,43 @@
 .card{
     &--promo{
-        height: 15rem;
-        &:hover{
-            &>.caption{
-                z-index: 1;
+        height: 10rem;
+        background-size: 5rem !important;
+
+        &_dnone{
+            background-position: top;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            height: 15rem;
+            >.caption{
+                display: none;
             }
-            &>.layer{
-                background-color: rgba(3, 3, 3, 0.301);
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
+            &:hover{
+                // height: 16rem;
+                >.caption{
+                    display: block;
+                    z-index: 1;
+                }
+                &>.layer{
+                    background-color: rgba(63, 63, 63, 0.705);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
             }
+        }
+        &>.caption{
+            z-index: 2;
+            color: white;
+        }
+        &>.layer{
+            background-color: rgba(105, 72, 0, 0.884);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     }
 }

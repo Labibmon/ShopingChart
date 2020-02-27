@@ -53,7 +53,8 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.0.0-rc.3"
+    "styled-components": "^5.0.0-rc.3",
+    "url-loader": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^13.7.4",
