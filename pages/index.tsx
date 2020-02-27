@@ -4,8 +4,6 @@ import { CaraouselComp } from './component/CarouselComp'
 import { PromoComp } from './component/PromoComp'
 import { useQuery } from "@apollo/react-hooks"
 import { PRODUCT } from './utils/productGql'
-// import { ProductSingle } from './component/ProductSingle'
-import Link from 'next/link'
 import { FeaturedCol } from './component/FeaturedCol'
 
 
@@ -13,7 +11,6 @@ const Index: React.FC = () => {
   const products = useQuery(PRODUCT(4,3,2))
   return (
     <Layout title="Home">
-      {/* <ProductSingle product={user?.data?.jobs || []} /> */}
       <CaraouselComp imageSrc={products?.data?.products.edges || []}/>
       <PromoComp 
         linkPromo='pria'
@@ -43,8 +40,6 @@ const Index: React.FC = () => {
             </span>
           </div>
         </div>
-        <hr />
-        hello
     </Layout>
   )
 }

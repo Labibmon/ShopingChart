@@ -2,6 +2,7 @@ import React from 'react'
 import '../../styles/styles.scss';
 import Link from 'next/link'
 import Head from 'next/head';
+import { Footer } from './Footer';
 // import { Logo } from '../assets/images';
 
 type LayoutProps = {
@@ -60,6 +61,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => (
     <div className="container mt-3">
       {children}
     </div>
+    <Footer />
   </div>
 )
 
