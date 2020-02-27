@@ -6,6 +6,7 @@ type PostProps = {
 }
 
 const Post: React.FunctionComponent<PostProps> = ({ router }) => {
+  
   return (
     <Layout title="post">
       <h1>{router.query.nameProduct}</h1>
