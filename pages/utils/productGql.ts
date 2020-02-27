@@ -10,6 +10,7 @@ export const PRODUCT = (jumlahProduct:number, jumlahImages: number, jumlahVarian
         handle
         description
         createdAt
+        availableForSale
         images(first: 1) {
           edges {
             node {

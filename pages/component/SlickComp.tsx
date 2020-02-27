@@ -53,7 +53,8 @@ export const SlickComp: React.FC<Props> = ({product}) => {
             <Slider {...settings}>
             {product.map((row, index)=>{
                 return(
-                <Link 
+                <Link
+                key={index} 
                 href={`/product?nameProduct=${product[index].name}&&harga=${product[index].harga}&&pict=${product[index].pict}`} 
                 >
                     <a>

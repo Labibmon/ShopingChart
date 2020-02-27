@@ -45,8 +45,8 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => (
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/pria">
-                  <a className="nav-link">PRIA</a>
+                <Link href="/catalog">
+                  <a className="nav-link">CATALOG</a>
                 </Link>
               </li>
             </ul>

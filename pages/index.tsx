@@ -13,11 +13,11 @@ const Index: React.FC = () => {
     <Layout title="Home">
       <CaraouselComp imageSrc={products?.data?.products.edges || []}/>
       <PromoComp 
-        linkPromo='pria'
+        linkPromo='catalog'
         imageSrc='https://scontent-cgk1-1.cdninstagram.com/v/t51.2885-19/s150x150/70008476_980032025721995_5140472758299262976_n.jpg?_nc_ht=scontent-cgk1-1.cdninstagram.com&_nc_ohc=l77XiPMv0iIAX-MCGj1&oh=7f30aba269b65191e0c68dc46b8a2fb2&oe=5E8AB0AD'
         headTitle='FEEL TRUST OFFICIALY'
         subTitle='SEE CATALOG'
-        // title="Berlaku sampai dengan 2020"
+        title=""
       />
         <div>
           <h3 className="text-center my-5">FEATURED COLLECTION</h3>
