@@ -9,12 +9,13 @@ interface Props {
 
 
 export const FeaturedCol: React.FC<Props> = ({products}) => {
+    console.log(products)
     return(
         <div className="row">
             {products.map((product, index)=>{
                 return(
-                    <div className="col-md-3 mb-md-0 mb-3" key={index}>
-                    <Link 
+                    <div className="col-md-3 mb-3" key={index}>
+                        <Link 
                         href={`/product?title=${product.node.handle}`} 
                         >
                             <a className="text-decoration-none">

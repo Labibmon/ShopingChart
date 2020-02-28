@@ -11,6 +11,13 @@ export const PRODUCT = (jumlahProduct:number, jumlahImages: number, jumlahVarian
         description
         createdAt
         availableForSale
+        variants(first:10){
+          edges{
+            node{
+              id
+              }
+          }
+        }
         images(first: 1) {
           edges {
             node {
